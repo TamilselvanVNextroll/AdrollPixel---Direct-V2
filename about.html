@@ -316,10 +316,15 @@
   <script type="text/javascript">
 
     (function(){
+     let value = document.querySelector(".info_logo > h2").innerText;
+     if(value === "HANDTIME"){
       try{
 adroll.track("pageView", {"segment_name":"7d5f14a3"})
 } catch(err) {}
     console.log("1");
+     }
+     else {
+         console.log(0)}
 })();
   
 </script>
